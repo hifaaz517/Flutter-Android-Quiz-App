@@ -1,16 +1,17 @@
-# firestoredemo
+# Flutter Android Quiz App
 
-A new Flutter project.
+SOLO PROJECT
 
-## Getting Started
+## PACKAGES USED:
+  - Data Model --> [Provider](https://pub.dev/packages/provider)
+      - This package is used to expose the DATA MODEL CLASS to other classes.
+  - Animation --> [Rive](https://pub.dev/packages/rive), [Flare](https://pub.dev/packages/flare_flutter)
+      - Used to Animate UI.
+  - Backend Database --> [Cloud Firestore](https://pub.dev/packages/cloud_firestore), [Firebase Auth](https://pub.dev/packages/firebase_auth)
+      - FireStore is used as a BACKEND DATABASE  for this project.
+  - Other Packages
+      - Data Formater --> [Date Format](https://pub.dev/packages/date_format)
+          - This packages is used to format the date (DD//MM/YYYY).
+      - String Generator --> [Random String](https://pub.dev/packages/random_string)
+          - This package is used to generate an array of Alpha Numeric String.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
